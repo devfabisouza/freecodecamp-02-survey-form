@@ -1,0 +1,140 @@
+/* importing google font to css file */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+html, body{
+    font-family: 'Raleway', Helvetica, sans-serif;
+    text-align: center;
+    background-color: #a9d7d1;
+    min-width: 320px;
+}
+
+#title{
+    padding: 10px;
+}
+
+/* form's outspace */
+#div-form{
+    background-color: #fafafa;
+    margin: 0 auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+    padding: 20px;
+    max-width:900px;
+}
+
+/* form's rows which contains .labels and .inputs */
+.rows{
+    margin: 7px;
+}
+
+.labels{
+    text-align: right;
+    display: inline-block;
+    margin: 10px;
+    width: 40%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    vertical-align: top;
+}
+
+.inputs{
+    text-align: left;
+    display: inline-block;
+    margin: 5px;
+    width:40%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    vertical-align: middle;
+}
+
+/* input content for #name-label, #email-label and #number-label */
+.input-field{
+    width: 250px;
+    padding: 6px;
+}
+
+/* dropdown's itens: #dropdown field; #activities field */
+.role-dropdown, .act-dropdown{
+    width: 180px;
+    padding: 6px;
+}
+
+/* format radio buttons: recommend topic; checkboxes buttons:  */
+ul{
+    list-style: none;
+}
+
+li{
+    position: relative;
+    left: -40px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.radio-buttons, input[type="checkbox"]{
+    float: left;
+    margin-right: 5px;
+}
+
+/* text box of comments */
+#comments{
+    padding: 5px;
+    margin: 5px;
+    resize: vertical;
+    width: 100%;
+}
+
+/* submit button */
+#submit{
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+#submit:hover{
+    background-color: #696969;
+    color: #000;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    display: block;
+}
+
+/* responsive layouts */
+@media screen and (max-width: 833px) {
+    .input-field,#comments{
+      width: 80%;
+    }
+    select {
+      width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 520px) {
+    .labels {
+      width: 100%;
+      text-align: left;
+    }
+    .inputs {
+      width: 80%;
+      float: left;
+    }
+    .input-field,#comments {
+      width: 100%;
+    }
+    select {
+      width: 100%;
+    }
+  }
