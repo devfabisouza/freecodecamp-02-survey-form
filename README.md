@@ -1,6 +1,6 @@
 # freecodecamp-02-survey-form
 
-Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
+<b>Objective</b>: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
 
 
 <b>User Story #1</b>: I can see a title with id="title" in H1 sized text.<br>
