@@ -1,7 +1,7 @@
 # Survey Form
 
 <b>Objective</b>: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
-<b>CodePen.io link:</b>https://codepen.io/fabisouza/pen/wZGGvR
+<b>CodePen.io link:</b>https://codepen.io/fabisouza/full/wZGGvR
 
 <b>User Story #1</b>: I can see a title with id="title" in H1 sized text.<br>
 <b>User Story #2</b>: I can see a short explanation with id="description" in P sized text.<br>
